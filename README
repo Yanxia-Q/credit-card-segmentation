@@ -1,0 +1,68 @@
+# 💳 Credit Card Customer Segmentation using KMeans Clustering
+
+## Project Objective
+The goal of this project is to segment credit card customers based on their financial behavior using unsupervised machine learning (KMeans clustering).
+This helps identify meaningful customer groups for business insights such as marketing strategy, customer retention, and risk analysis.
+
+---
+
+## Dataset
+- 8,950 credit card customers
+- 17 behavioral features after preprocessing
+- Key variables include:
+  - BALANCE
+  - PURCHASES
+  - CREDIT_LIMIT
+  - PAYMENTS
+  - CASH_ADVANCE
+  - FREQUENCY features
+
+After cleaning, the final dataset contains **8,636 customers**.
+
+---
+
+## Project Workflow
+- Data understanding and exploratory analysis
+- Data cleaning and preprocessing
+- Feature preparation for clustering
+- Feature scaling (Standardization)
+- Customer segmentation using KMeans clustering
+- Model evaluation (Elbow Method & Silhouette Score)
+- Dimensionality reduction using PCA
+- Business interpretation of customer segments
+
+---
+
+## 🤖 Machine Learning Model
+- Algorithm: KMeans Clustering
+- Type: Unsupervised Learning
+- Optimal number of clusters: 4
+
+---
+
+## 📈 Results
+Four main customer segments were identified:
+
+- High-Value Customers
+- Regular Active Customers
+- Low-Activity Customers
+- Cash Advance Users
+
+---
+
+## Business Impact
+This segmentation helps financial institutions to:
+- Improve targeted marketing campaigns
+- Identify high-value customers
+- Reduce credit risk
+- Increase customer retention
+
+---
+
+## Tools Used
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- Matplotlib
+- Seaborn
