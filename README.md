@@ -14,7 +14,7 @@ customer — while clearing their balance in full only **3.5% of the time**.
 
 ## Dataset
 - 8,950 credit card customers
-- 17 behavioral features after preprocessing
+- 17 behavioral features (excluding customer ID)
 - Key variables include:
   - BALANCE
   - PURCHASES
