@@ -44,7 +44,8 @@ The dataset has no default flag, so I used heavy cash-advance reliance combined 
 ## 🤖 Machine Learning Model
 - Algorithm: KMeans Clustering
 - Type: Unsupervised Learning
-- Optimal number of clusters: 4
+- Number of clusters: 4 (silhouette favours K=3; K=4 retained for business interpretability — see notebook §9.1)
+
 
 ---
 
